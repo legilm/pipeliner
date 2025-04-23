@@ -23,7 +23,7 @@ fetch_symbols <- function(conn) {
     SELECT symbol
     FROM sp500.info
     ORDER BY index_ts ASC
-    LIMIT 10
+    LIMIT 15
     ",
     .con = conn
   )
