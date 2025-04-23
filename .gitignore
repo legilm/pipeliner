@@ -7,3 +7,5 @@
 *.Renviron
 *.Rproj
 *.Rbuildignore
+renv/
+*.Rprofile

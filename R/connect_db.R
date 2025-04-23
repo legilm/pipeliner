@@ -22,6 +22,7 @@
 #' # Don't forget to close the connection when done
 #' DBI::dbDisconnect(con)
 #' }
+#' @export
 connect_db <- function() {
   con <- DBI::dbConnect(
     RPostgres::Postgres(),
